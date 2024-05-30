@@ -1,4 +1,4 @@
 "use strict";
-let a = 10;
-let b = 3;
+let a = 13;
+let b = 5;
 alert(a % b); // выведет 1
