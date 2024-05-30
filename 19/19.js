@@ -1,8 +1,12 @@
 "use strict";
-let a = 10;
-let b = 2;
+let a = 8 + 2 / 2;
+alert(a); // выведет 9
 
-alert(a+b); // выведет 12
-alert(a-b); // выведет 8
-alert(a*b); // выведет 20
-alert(a/b); // выведет 5
+let b = 8 / 2 + 2;
+alert(b); // выведет 6
+
+let a = 5 + 5 * 3 + 3;
+alert(a); // выведет 23
+
+let a = 5 + 5 * 3;
+alert(a); // выведет 20
