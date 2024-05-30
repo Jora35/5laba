@@ -1,1 +1,1 @@
-alert('BB');
+alert('goga');
