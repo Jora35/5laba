@@ -1,19 +1,14 @@
 class Employee {
-	#name;
-	#surname;
-	#zp;
-
-	constructor(name, surname, zp) {
-		this.#name = name;
-		this.#surname = surname;
-		this.#zp = zp;
+	constructor(name, salary) {
+		this.name = name;
+		this.salary = salary;
 	}
 	
-	show() {
-		return this.#name;
-		return this.#surname;
-		return this.#zp;
+	getSalary() {
+		return this.addSign(this.salary);
+	}
+	
+	addSign(num) {
+		return num + '$';
 	}
 }
-let user = new Employee('john','Doodl',32000 );
-console.log(user.show()); 
