@@ -1,13 +1,10 @@
 class Employee {
-	show(surn) {
-		return surn;
-	}
-	sep() {
-		console.log(this.name); // объект
+	show(zp) {
+		console.log(this.name);
+		return zp;
 	}
 }
 
 let user = new Employee;
-user.name = 'john';
-user.sep();
-console.log(user.show('smit'));
+user.name = 'Gregor';
+console.log(user.show('30000'));

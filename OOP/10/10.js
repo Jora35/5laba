@@ -1,8 +1,8 @@
-class  Student {
+class  Employee {
 	constructor() {
 		console.log('+++');
 	}
 }
 
-new Student; // выведет '+++'
+new Employee; // выведет '+++'
 
