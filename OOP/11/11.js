@@ -1,6 +1,6 @@
 class Employee {
-	constructor(name, surn) {
-		console.log(name + ' ' + surn);
+	constructor(name, zp) {
+		console.log(name + ' ' + zp);
 	}
 }
-new Employee('john', 'smit'); 
+new Employee('john', '32,000'); 
