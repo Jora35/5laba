@@ -1,3 +1,28 @@
-let num1 = parseInt('5px');
-let num2 = parseInt('6px');
-alert(num1+num2+"px");
+class Car {
+	color; // цвет автомобиля
+	fuel;  // количество топлива
+	
+	// Команда ехать:
+	go() {
+		// какой-то JavaScript код
+	}
+	
+	// Команда поворачивать:
+	turn() {
+		// какой-то JavaScript код
+	}
+	
+	// Команда остановиться:
+	stop() {
+		// какой-то JavaScript код
+	}
+}
+
+let myCar = new Car; // командуем заводу сделать автомобиль
+
+myCar.color = 'red'; // красим в красный цвет
+myCar.fuel = 50; 
+
+myCar.go();
+myCar.turn();
+myCar.stop();
