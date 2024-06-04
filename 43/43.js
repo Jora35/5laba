@@ -1,0 +1,12 @@
+let a = '5' + 2;
+alert(a);
+let b = 5 + 2;
+alert(b);
+let c = '5' * '2';
+alert(c);
+let d = '5' % '2';
+alert(d);
+let e = (-'5') + (-'2');
+alert(e);
+let i = '' + 3 + 1;
+alert(i);
